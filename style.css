@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-link {
+  color: lightgray !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+
+.my-picture {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.intro,.about{
+  font-family: 'Anton', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
+  color: beige;
+}
+
+.intro-descrp,.about-descrp {
+  font-size: 1.2rem;
+  color: beige;
+  text-align: justify;
+  
+}
+
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .intro-descrp {
+    text-align: center;
+  }
+}
+
+.about-section {
+  min-height: 100vh; 
+  background-color: black;
+}
+
+.about-heading,.work-heading{
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: beige;
+  margin-bottom: 1rem;
+}
+
+.about-text,.work-descrp,.work-title{
+  font-size: 1.2rem;
+  color: beige;
+  line-height: 1.6;
+}
+.know-icon{
+    color: wheat;
+    text-decoration: none;
+}
