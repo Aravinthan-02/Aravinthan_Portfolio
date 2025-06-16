@@ -44,12 +44,12 @@ body {
   }
 }
 
-.about-section {
+.about-section,.edu-section {
   min-height: 100vh; 
   background-color: black;
 }
 
-.about-heading,.work-heading{
+.about-heading,.work-heading, .edu-heading{
   font-family: "Anton", sans-serif;
   font-size: 3rem;
   font-weight: bold;
@@ -57,12 +57,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.about-text,.work-descrp,.work-title{
+.about-text,.work-descrp,.work-title,.edu-descrp{
   font-size: 1.2rem;
   color: beige;
   line-height: 1.6;
 }
-.know-icon{
+.know-icon, .clg-info, .scl-info{
     color: wheat;
     text-decoration: none;
 }
