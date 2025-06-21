@@ -49,7 +49,7 @@ body {
   background-color: black;
 }
 
-.about-heading,.work-heading, .edu-heading{
+.about-heading,.work-heading, .edu-heading,.proj-heading,.certificate-heading{
   font-family: "Anton", sans-serif;
   font-size: 3rem;
   font-weight: bold;
@@ -57,7 +57,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.about-text,.work-descrp,.work-title,.edu-descrp{
+.about-text,.work-descrp,.work-title,.edu-descrp,.proj-descrp{
   font-size: 1.2rem;
   color: beige;
   line-height: 1.6;
@@ -66,3 +66,20 @@ body {
     color: wheat;
     text-decoration: none;
 }
+
+.proj-card{
+  max-width: 50%;
+  max-height: 50%;  
+}
+
+.proj-pic{
+  max-height: 30%;
+}
+.proj-descrp{
+  text-align: justify;
+}
+.proj-title{
+  color: beige;
+  font-weight: bold;
+}
+
