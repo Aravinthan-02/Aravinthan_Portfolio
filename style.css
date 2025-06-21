@@ -67,10 +67,7 @@ body {
     text-decoration: none;
 }
 
-.proj-card{
-  max-width: 50%;
-  max-height: 50%;  
-}
+
 
 .proj-pic{
   max-height: 30%;
@@ -82,4 +79,5 @@ body {
   color: beige;
   font-weight: bold;
 }
+
 
