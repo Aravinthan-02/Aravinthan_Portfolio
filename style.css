@@ -43,13 +43,16 @@ body {
     text-align: center;
   }
 }
+.skill{
+  height: 500px;
+}
 
 .about-section,.edu-section {
   min-height: 100vh; 
   background-color: black;
 }
 
-.about-heading,.work-heading, .edu-heading,.proj-heading,.certificate-heading{
+.about-heading,.work-heading, .edu-heading,.proj-heading,.certificate-heading,.ach-heading{
   font-family: "Anton", sans-serif;
   font-size: 3rem;
   font-weight: bold;
@@ -62,12 +65,10 @@ body {
   color: beige;
   line-height: 1.6;
 }
-.know-icon, .clg-info, .scl-info{
+.know-icon, .skills, .clg-info, .scl-info{
     color: wheat;
     text-decoration: none;
 }
-
-
 
 .proj-pic{
   max-height: 30%;
@@ -75,9 +76,21 @@ body {
 .proj-descrp{
   text-align: justify;
 }
-.proj-title{
+.proj-title,.ach-title{
   color: beige;
   font-weight: bold;
+}
+
+
+  .merit-image,.medal-image,.SIH-image,.inno-image,.hackfest-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.ach-card{
+  max-height: 600px;
 }
 
 
